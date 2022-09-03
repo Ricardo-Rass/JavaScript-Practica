@@ -1,6 +1,7 @@
 function twosum(nums, target) {
     let suma = 0;
     let resultado = [];
+    //El método entries() devuelve un [key, value] 
     for(let [index1, i] of nums.entries()){
         for(let [index2, j] of nums.entries()){
             suma = i + j
